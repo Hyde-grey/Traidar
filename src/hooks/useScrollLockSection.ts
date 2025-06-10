@@ -1,10 +1,5 @@
 import { RefObject, useEffect, useState, useRef } from "react";
-import {
-  useMotionValue,
-  useSpring,
-  useTransform,
-  MotionValue,
-} from "framer-motion";
+import { useMotionValue, useTransform, MotionValue } from "framer-motion";
 import homeStyles from "../pages/Home/Home.module.css";
 
 interface ScrollLockResult {

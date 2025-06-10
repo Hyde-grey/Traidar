@@ -31,10 +31,7 @@ const Home = () => {
       exit={{ opacity: 0, transition: { duration: 0.3, ease: "easeIn" } }}
     >
       <div className={styles.snapSection}>
-        <HeroSection
-          setForceHoverState={setForceHoverState}
-          forceHoverState={forceHoverState}
-        />
+        <HeroSection setForceHoverState={setForceHoverState} />
       </div>
       <div ref={emotionalHookRef} className={styles.snapSection}>
         <EmotionalHook />
@@ -54,11 +51,7 @@ const Home = () => {
         className={styles.orbWrapper}
         style={{ "--orb-left": orbLeft } as any}
       >
-        <Orb
-          rotateOnHover={true}
-          forceHoverState={forceHoverState}
-          hoverIntensity={0.2}
-        />
+        <Orb rotateOnHover={true} hoverIntensity={0.2} />
       </motion.div>
 
       <LaptopScene />
