@@ -22,10 +22,8 @@ const variants: Record<"firstLoad" | "scrolledBack", Variant> = {
 
 const HeroSection = ({
   setForceHoverState,
-  forceHoverState,
 }: {
   setForceHoverState: (v: boolean) => void;
-  forceHoverState: boolean;
 }) => {
   const controls = useAnimation();
   const ref = useRef<HTMLDivElement>(null);
