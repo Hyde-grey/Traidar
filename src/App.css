@@ -75,48 +75,11 @@ body {
   margin: 0;
   position: relative;
   overflow: hidden;
-  width: 100dvw;
-  height: 100dvh;
+  /* allow full document height to grow */
+  width: auto;
+  height: auto;
 }
 
 .white {
   color: white;
-}
-
-.appContainer {
-  width: 100%;
-  height: 100dvh;
-  position: relative;
-  padding: 6rem 8rem;
-  z-index: 1;
-}
-
-.mainCanvas {
-  width: 100%;
-  height: 100dvh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 1;
-  z-index: -1;
-  overflow: hidden;
-}
-
-.mainText {
-  position: absolute;
-  top: 75%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 2rem;
-  width: 100dvw;
-  margin: 0;
-  padding: 0;
-}
-
-@media (max-width: 768px) {
-  .appContainer {
-    padding: 3rem;
-  }
 }

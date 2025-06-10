@@ -1,0 +1,25 @@
+.featuresSection {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #050505; /* A slightly off-black for contrast */
+}
+
+.featuresContent {
+  text-align: center;
+}
+
+.featuresTitle {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.featuresSubtitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #a0a0a0;
+  margin-top: 1rem;
+}
